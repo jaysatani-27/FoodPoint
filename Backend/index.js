@@ -26,7 +26,7 @@ app.use((req,res,next)=>{
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World')
+  res.send('WELCOME TO OUR SERVER')
 })
 
 app.use(express.json())
