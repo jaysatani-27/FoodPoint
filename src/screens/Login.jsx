@@ -17,7 +17,7 @@ export default function Login() {
 
   return (
     <div className='login-container'>
-      <div className='container' style={{ paddingTop: "30px" }}>
+      <div className='container' >
 
         <form onSubmit={handleSubmit}>
         <h2>login to your account </h2>
